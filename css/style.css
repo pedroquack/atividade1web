@@ -1,20 +1,63 @@
 @import url('https://fonts.cdnfonts.com/css/minecraft-4');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
 *{
-    font-family: 'Minecraft', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url(../img/stonedark.png);
 }
 .episodios{
     display: flex;
-    
+    color:white;
 }
 .episodios figure img{
     max-width: 250px;
     max-height: 150px;
 }
+.episodios, header{
+    background-image: url(../img/stone.png);
+}
+h3{
+    margin-left: 5px;
+}
 header nav ul{
     display: flex;
-    text-indent: 15px;
+    text-indent: 35px;
     list-style: none;
+    text-shadow: 2px 2px black;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Minecraft';
 }
 header{
-    text-align: center;
+    text-align: center;   
+}
+h1, h2{
+    font-family: 'Minecraft', sans-serif;
+    text-shadow: 2px 2px white;
+}
+h1{
+    font-size: 50px;
+}
+#banner{
+    background-image: url(../img/banner.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    text-align:center;
+    background-position: center;
+}
+#banner, span{
+    color: white;
+    text-shadow: 2px 5px black;
+    font-size: 30px;
+    font-family: 'Minecraft', sans-serif;
+    padding-block-start:200px ;
+}
+hr{
+    visibility: hidden;
+}
+h4,h3{
+    text-shadow: 2px 2px black;
 }
