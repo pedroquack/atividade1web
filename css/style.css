@@ -7,6 +7,7 @@
 body{
     background-image: url(../img/stonedark.png);
 }
+
 .episodios{
     display: flex;
     color: rgb(99,11,11);;
@@ -26,13 +27,21 @@ header nav ul{
     display: flex;
     text-indent: 15px;
     list-style: none;
-    flex-wrap:wrap
+    flex-wrap:wrap;
+    
 }
 nav ul li a{
     color: rgb(99,11,11);
     text-decoration: none;
     font-family: 'Minecraft';
     font-size: 20px;
+}
+:link:hover{
+    outline: dashed rgb(99,11,11);
+}
+.nav:hover{
+    background: rgb(255, 255, 255);
+    width: 100%;
 }
 header{
     text-align: center;   
@@ -89,6 +98,7 @@ footer ul{
     display: flex;
     text-shadow: 2px 2px black;
     text-indent: 10px;
+    font-size: 20px;
     
 }
 footer ul li a{
