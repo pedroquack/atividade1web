@@ -10,7 +10,7 @@ body{
 
 .episodios{
     display: flex;
-    color: rgb(99,11,11);;
+    color: black;
     font-size: 20px;
 }
 .episodios figure img{
@@ -25,22 +25,24 @@ h3{
 }
 header nav ul{
     display: flex;
-    text-indent: 15px;
     list-style: none;
     flex-wrap:wrap;
-    
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-indent: 15px;
+    margin-left: -15px;
 }
 nav ul li a{
-    color: rgb(99,11,11);
+    color: rgb(11, 11, 11);
     text-decoration: none;
     font-family: 'Minecraft';
     font-size: 20px;
 }
 :link:hover{
-    outline: dashed rgb(99,11,11);
+    outline:dashed silver;
 }
 .nav:hover{
-    background: rgb(255, 255, 255);
     width: 100%;
 }
 header{
@@ -51,16 +53,16 @@ h1, h2{
 }
 h1{
     font-size: 50px;
-    color: rgb(99,11,11);
-    text-shadow: 2px 2px rgb(0, 0, 0);
+    color: black;
+    text-shadow: 2px 2px silver
 }
 h2{
-    color: black;
-    text-shadow: 1px 1px white
+    color: silver;
+    text-shadow: 2px 2px black
 }
 main{
     width: 100%;
-    height: 300px;
+    height: 100%;
 }
 #banner{
     background-image: url(../img/banner.png);
@@ -71,17 +73,36 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    word-spacing: 10px;
 }
 #banner span{
     font-size: 33px;
-     height: 40px;
-     font-family: 'Minecraft', sans-serif;
-     text-shadow: 1px 1px white;
+    height: 40px;
+    font-family: 'Minecraft', sans-serif;
+    text-shadow: 1px 1px black;
+    color: silver;
+}
+.elenco{
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    color: silver;
+    margin-top: 100px;
+}
+.elenco p, .elenco h3{
+    font-family: 'Minecraft', sans-serif;
+    text-shadow: 2px 2px black;
 }
 hr{
     visibility: hidden;
 }
-h4,h3{
+.sinopse{
+    font-size: 22px;
+}
+.sinopse,h3{
     text-shadow: 1px 1px black;
 }
 footer{
@@ -104,4 +125,9 @@ footer ul{
 footer ul li a{
     color: white;
     text-decoration: none;
+}
+.imagem{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
