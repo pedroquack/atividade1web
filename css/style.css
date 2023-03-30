@@ -45,7 +45,8 @@ header nav ul{
     margin-top: 25px;
 }
 nav ul li a{
-    color: rgb(11, 11, 11);
+    color: white;
+    text-shadow: 2px 2px black;
     text-decoration: none;
     font-family: 'Minecraft';
     font-size: 20px;
