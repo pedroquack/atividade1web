@@ -18,13 +18,14 @@ html{
     font-size: 20px;
     padding: 10px;
     gap: 10px;
-    margin-top: 20px;
 }
 .episodios figure img{
+    min-width: 250px;
+    min-height: 150px;
     max-width: 250px;
     max-height: 150px;
 }
-.episodios, header{
+.episodios, header, .elenco{
     background-image: url(../img/stone.png);
 }
 h3{
@@ -103,9 +104,9 @@ main{
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
-    color: white;
+    color: silver;
     width: 35%;
-    margin: 15px;
+    margin: auto;
     align-items: center;
     width: 100%;
     gap: 15px;
