@@ -105,20 +105,20 @@ main{
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
-    color: white;
+    color: black;
     width: 35%;
     margin: auto;
     align-items: center;
     width: 100%;
     gap: 15px;
     font-family: 'Minecraft', sans-serif;
-    text-shadow: 2px 2px black;
 }
 hr{
     visibility: hidden; 
 }
 .sinopse{
     font-size: 22px;
+    padding-right: 5%;
 }
 .sinopse,h3{
     text-shadow: 1px 1px black;
