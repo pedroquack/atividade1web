@@ -1,0 +1,36 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    width: 250px;
+    height: 400px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    background-image: url(../img/stone.png);
+    background-size: cover; 
+}
+.card__img{
+    width: 95%;
+    position: relative;
+    top: 5px;
+    left: 6px;
+}
+.card__description{
+    padding: 10px;
+}
+.card__description h2{
+    margin-bottom: 10px;
+    font-family: 'Minecraft', sans-serif;
+    text-align: center;
+}
+.card__description p{
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
