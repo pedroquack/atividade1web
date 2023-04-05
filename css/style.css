@@ -37,8 +37,6 @@ ul{
 header nav ul{
     display: flex;
     flex-wrap:wrap;
-    width: 100%;
-    height: 100%;
     justify-content: center;
     text-indent: 15px;
     margin-left: -15px;
@@ -54,7 +52,6 @@ nav ul li a{
 a:hover{
     outline:dashed silver;
 }
-
 header{
     text-align: center;
     padding: 40px;   
@@ -71,10 +68,6 @@ header h2{
     color: silver;
     text-shadow: 2px 2px black
 }
-main{
-    width: 100%;
-    height: 100%;
-}
 #banner{
     background-image: url(../img/banner.png);
     height: 300px;
@@ -82,10 +75,8 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 35px;
     margin-top: 20px;
 }
 #banner span{
@@ -147,9 +138,5 @@ footer ul li a, span{
 footer ul li a{
     color: white;
     text-decoration: none;
-}
-.shiu{
-    text-decoration: none;
-    color: white;
 }
 
