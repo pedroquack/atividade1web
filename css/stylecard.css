@@ -6,31 +6,36 @@
     box-sizing: border-box;
     font-family: 'Minecraft', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type: proximity;
+}
 body{
-    margin: 20px;
+    margin: 35px;
+    background-image: url(../img/stonedark.png);
 }
 .container__episodios{
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
+    gap: 25px;
 }
 .card{
-    width: 250px;
-    min-height: 400px;
-    max-height: 100%;
+    width: 300px;
+    height: 450px;
     border: 2px solid rgb(64, 63, 63);
     margin: auto;
     border-radius: 5px;
     overflow: hidden;
     background-image: url(../img/stone.png);
     background-size: cover; 
-    padding-bottom: 1%;
 }
 .card__img{
     width: 95%;
+    height: 150px;
     position: relative;
     top: 5px;
-    left: 6px;
+    left: 7.5px;
 }
 .card__description{
     padding: 10px;
@@ -56,4 +61,104 @@ body{
 .card__button a{
     color: black;
     text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header nav ul{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    text-indent: 15px;
+    margin-left: -15px;
+    margin-top: 25px;
+}
+nav ul li a{
+    color: white;
+    text-shadow: 2px 2px black;
+    text-decoration: none;
+    font-family: 'Minecraft';
+    font-size: 20px;
+}
+header{
+    text-align: center;
+    padding: 40px;   
+}
+h1, h2{
+    font-family: 'Minecraft', sans-serif;
+}
+h1{
+    font-size: 50px;
+    color: black;
+    text-shadow: 2px 2px silver
+}
+header h2{
+    color: silver;
+    text-shadow: 2px 2px black
+}
+#banner{
+    background-image: url(../img/banner.png);
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#banner span{
+    font-size: 33px;
+    display:flex;
+    flex-direction: column;
+    text-align: center ;
+    height: 40px;
+    width: 100%;    
+    font-family: 'Minecraft', sans-serif;
+    text-shadow: 1px 1px black;
+    color: silver;
+}
+.elenco{
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    width: 35%;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+    font-family: 'Minecraft', sans-serif;
+}
+footer{
+    background-image: url(../img/bedrock.png);
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+footer ul{
+    list-style: none;
+    color: white;    
+    display: flex;
+    text-shadow: 2px 2px black;
+    gap: 35px;
+    font-size: 20px;
+    
+}
+footer ul li a, span{
+    font-family: 'Minecraft', sans-serif;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+header, .elenco{
+    background-image: url(../img/stone.png);
+}
+li a:hover{
+    outline: dotted white;
 }
