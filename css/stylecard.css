@@ -13,63 +13,23 @@ html{
 body{
     margin: 35px;
     background-image: url(../img/stonedark.png);
-}
-.container__episodios{
     display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    gap: 25px;
+    flex-direction: column;
+    gap: 15px;
 }
-.card{
-    width: 300px;
-    height: 450px;
-    border: 2px solid rgb(64, 63, 63);
-    margin: auto;
-    border-radius: 5px;
-    overflow: hidden;
-    background-image: url(../img/stone.png);
-    background-size: cover; 
-}
-.card__img{
-    width: 95%;
-    height: 150px;
-    position: relative;
-    top: 5px;
-    left: 7.5px;
-}
-.card__description{
-    padding: 10px;
-}
-.card__description h2{
-    margin-bottom: 10px;
+header{
     text-align: center;
+    padding: 40px;   
 }
-.card__description p{
-    margin-bottom: 10px;
-    font-family: 'Roboto', sans-serif;
-    text-align: justify;
-}
-.card__button button{
-    padding: 10px;
-    display: block;
-    margin: auto;
-    background-color: gray;
-}
-.card__button :hover{
-    background-color: rgb(64, 63, 63);
-}
-.card__button a{
-    color: black;
-    text-decoration: none;
-}
-ul{
-    list-style: none;
+header h2{
+    color: silver;
+    text-shadow: 2px 2px black
 }
 header nav ul{
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
-    text-indent: 15px;
+    gap: 15px;
     margin-left: -15px;
     margin-top: 25px;
 }
@@ -80,22 +40,7 @@ nav ul li a{
     font-family: 'Minecraft';
     font-size: 20px;
 }
-header{
-    text-align: center;
-    padding: 40px;   
-}
-h1, h2{
-    font-family: 'Minecraft', sans-serif;
-}
-h1{
-    font-size: 50px;
-    color: black;
-    text-shadow: 2px 2px silver
-}
-header h2{
-    color: silver;
-    text-shadow: 2px 2px black
-}
+
 #banner{
     background-image: url(../img/banner.png);
     height: 300px;
@@ -118,6 +63,84 @@ header h2{
     text-shadow: 1px 1px black;
     color: silver;
 }
+.container__episodios{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.card{
+    width: 300px;
+    height: 450px;
+    border: 2px solid rgb(64, 63, 63);
+    border-radius: 5px;
+    overflow: hidden;
+    background-image: url(../img/stone.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card__background figure{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+}
+.card__img{
+    width: 95%;
+    height: 150px;
+    display: flex;
+}
+.card__description{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-grow: 1;
+    padding: 0 10px
+}
+.card__description h2{
+
+    text-align: center;
+}
+.card__description p{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+.card__button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card__button button{
+    padding: 10px;
+    background-color: gray;
+}
+.card__button :hover{
+    background-color: rgb(64, 63, 63);
+}
+.card__button a{
+    color: black;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+h1, h2{
+    font-family: 'Minecraft', sans-serif;
+}
+h1{
+    font-size: 50px;
+    color: black;
+    text-shadow: 2px 2px silver
+}
+
 .elenco{
     display: flex;
     font-size: 20px;
@@ -131,6 +154,7 @@ header h2{
     width: 100%;
     gap: 15px;
     font-family: 'Minecraft', sans-serif;
+    padding-bottom: 5px;
 }
 footer{
     background-image: url(../img/bedrock.png);
