@@ -15,7 +15,7 @@ body{
     background-image: url(../img/stonedark.png);
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
 }
 header{
     text-align: center;
@@ -67,8 +67,8 @@ nav ul li a{
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
+    justify-content:space-between;
+    gap: 15px;
 }
 .card{
     width: 300px;
