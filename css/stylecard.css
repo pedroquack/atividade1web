@@ -8,7 +8,6 @@
 }
 html{
     scroll-behavior: smooth;
-    scroll-snap-type: proximity;
 }
 body{
     margin: 35px;
@@ -18,8 +17,12 @@ body{
     gap: 10px;
 }
 header{
-    text-align: center;
-    padding: 40px;   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 header h2{
     color: silver;
@@ -103,8 +106,9 @@ nav ul li a{
     padding: 0 10px
 }
 .card__description h2{
-
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .card__description p{
     font-family: 'Roboto', sans-serif;
@@ -185,4 +189,5 @@ header, .elenco{
 }
 li a:hover{
     outline: dotted white;
+    background-image: url(../img/stonedark.png);
 }
