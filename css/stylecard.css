@@ -76,7 +76,7 @@ nav ul li a{
 .card{
     width: 300px;
     height: 450px;
-    border: 2px solid rgb(64, 63, 63);
+    border: 2px solid rgb(34, 33, 33);
     border-radius: 5px;
     overflow: hidden;
     background-image: url(../img/stone.png);
@@ -180,7 +180,7 @@ footer ul{
 footer ul li a, span{
     font-family: 'Minecraft', sans-serif;
 }
-footer ul li a{
+footer ul li a, .link__topo a{
     color: white;
     text-decoration: none;
 }
@@ -190,4 +190,14 @@ header, .elenco{
 li a:hover{
     outline: dotted white;
     background-image: url(../img/stonedark.png);
+}
+.link__topo{
+    display: flex;
+    align-self: flex-end;
+    position: fixed;
+    -webkit-text-stroke-width:1px ;
+    -webkit-text-stroke-color: black;
+}
+.link__topo a:hover{
+    outline: dotted white;
 }
