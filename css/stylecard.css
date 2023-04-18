@@ -191,13 +191,3 @@ li a:hover{
     outline: dotted white;
     background-image: url(../img/stonedark.png);
 }
-.link__topo{
-    display: flex;
-    align-self: flex-end;
-    position: fixed;
-    -webkit-text-stroke-width:1px ;
-    -webkit-text-stroke-color: black;
-}
-.link__topo a:hover{
-    outline: dotted white;
-}
