@@ -56,8 +56,9 @@ nav ul li a{
     margin-top: 20px;
 }
 #banner span{
-    font-size: 33px;
+    font-size: 35px;
     display:flex;
+    flex-wrap: wrap;
     flex-direction: column;
     text-align: center ;
     height: 40px;
@@ -191,3 +192,4 @@ li a:hover{
     outline: dotted white;
     background-image: url(../img/stonedark.png);
 }
+
