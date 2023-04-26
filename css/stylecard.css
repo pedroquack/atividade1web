@@ -161,6 +161,66 @@ h1{
     font-family: 'Minecraft', sans-serif;
     padding-bottom: 5px;
 }
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-image:url(../img/stone.png);
+    gap: 10px;
+    padding: 15px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.formulario__titulo{
+    text-align: center;
+}
+.form legend{
+    background-image: url(../img/stonedark.png);
+    padding: 3px;
+    color: silver;
+}
+.form fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(171, 171, 171);
+    border: 3px solid rgb(39, 39, 39);
+    padding: 10px;
+}
+.radio, .checkbox{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.gostos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.gostos textarea{
+    resize: none;
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+}
+.form__botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.form__botoes button{
+    padding: 10px;
+    background-color: rgb(171, 171, 171);
+    border: 2px solid silver;   
+}
+.form__botoes button:hover{
+    background-color: rgb(58, 58, 58);
+    color: silver;
+}
 footer{
     background-image: url(../img/bedrock.png);
     display: flex;
