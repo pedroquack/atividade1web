@@ -173,10 +173,6 @@ h1{
     flex-direction: column;
     gap: 15px;
 }
-.dados_pessoais input[type = text], input[type = email]{
-    height: 100%;
-    width: 20%;
-}
 .formulario__titulo{
     text-align: center;
 }
@@ -198,6 +194,15 @@ h1{
     border: 3px solid silver;
     padding: 10px;
 }
+.dados_pessoais input{
+    padding: 5px;
+    width: 20%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 .form_subtitles{
     font-size: 20px;
 }
@@ -210,6 +215,11 @@ h1{
     color: silver;
     display: flex;
     flex-direction: row;
+    gap: 30px;
+}
+.radiocheck{
+    display: flex;
+    flex-direction: column;
     gap: 15px;
 }
 .gostos{

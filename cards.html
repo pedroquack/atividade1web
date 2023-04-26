@@ -400,20 +400,20 @@
             <fieldset class="dados_pessoais">
                 <legend>Dados Pessoais</legend>
 
-                <div>
+                <div class="info">
                     <label for="nome">Nome:</label>
                     <input type="text" name="nome" id="nome" placeholder="Seu nome">
                 </div>
-                <div>
+                <div class="info">
                     <label for="email">E-Mail:</label>
                     <input type="email" name="email" id="email" placeholder="Seu email">
                 </div>
-                <div>
+                <div class="info">
                     <label for="telefone">Telefone:</label>
                     <input type="tel" name="telefone" id="telefone" placeholder="Seu telefone">
                 </div>
 
-                <div>
+                <div class="info">
                     <label for="datanasc">Data de Nascimento</label>
                     <input type="date" name="datanasc" id="datanasc">
                 </div>
@@ -421,8 +421,8 @@
 
             <fieldset class="preferencias">
                 <legend>Preferencias</legend>
-
-                <h4 class="form__subtitles">Qual voce prefere?</h4>
+                <div class="radiocheck">
+                    <h4 class="form__subtitles">Qual voce prefere?</h4>
                 <div class="radio">
                     <div>
                         <input type="radio" name="pref" id="prefSerie" value="serie">
@@ -437,7 +437,6 @@
                         <label for="prefDocumentario">Documentarios</label>
                     </div>
                 </div>
-
                 <h4 class="form__subtitles">Quais seus generos favoritos?</h4>
                 <div class="checkbox">
                     <div>
@@ -469,6 +468,8 @@
                         <label for="outro">Outro</label>
                     </div>
                 </div>
+                </div>
+                
              </fieldset>
              <div class="gostos">
                 <h4 class="form_subtitles">Fale sobre seus gostos:</h4>
